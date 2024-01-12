@@ -53,6 +53,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 keyboardType: const TextInputType.numberWithOptions(
                   decimal: true,
                 ),
+                onChanged: (value) {
+                  convert();
+                },
               ),
               const SizedBox(
                 height: 30,
